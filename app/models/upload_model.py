@@ -1,11 +1,10 @@
+import uuid
 from datetime import datetime
 from typing import Any, Dict, Optional
 
-from pydantic import BaseModel, Field
 from sqlalchemy import Column, DateTime, Integer, String, Text, func
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import declarative_base
-import uuid
 
 Base = declarative_base()
 

@@ -4,12 +4,10 @@ from logging.config import fileConfig
 from alembic import context
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
-from sqlmodel import SQLModel
 from dotenv import load_dotenv
 
 
-from app.models.upload_model import Base
-from app.models.upload_model import Upload
+from app.models.upload_model import Base, Upload
 from app.models.analysis_model import Analysis
 
 load_dotenv()
