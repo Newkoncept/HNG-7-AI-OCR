@@ -1,7 +1,7 @@
 [project]
 name = "hng-7-siftline"
 version = "0.1.0"
-description = "Add your description here"
+description = "FastAPI document analysis API for PDF upload, OCR extraction, S3 storage, and LLM-powered summaries."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
